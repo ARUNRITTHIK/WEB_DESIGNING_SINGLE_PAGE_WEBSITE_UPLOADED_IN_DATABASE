@@ -1,0 +1,19 @@
+n=int(input())
+l=list(map(int,input().split())) 
+l1=[]
+a=int(input())
+for i in range(a):
+    l1.append(list(map(int,input().split())))
+res=[]
+for i in l1:
+    if(i[0]==1):
+        x,y,s=i[1],i[2],i[3]
+        for j in range(x-1,y):
+            l[j]+=s
+    if(i[0]==2):
+        x,y=i[1],i[2]
+        b=[]
+        for j in range(x-1,y):
+            b.append(l[j])
+        res.append(sum(b))
+        print(*res)

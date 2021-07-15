@@ -1,0 +1,96 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(pineapple.jpg)no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    font-family: sans-serif;
+}
+h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+    color:white;
+}
+
+
+
+.user{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+}
+
+
+
+p{
+    color:goldenrod;
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    font-size: larger;
+}
+
+input{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+ 
+
+input[type="submit"]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    background:rgb(245, 178, 9);
+    color:white;
+    font-size: 18px;
+    border-radius: 20px;
+
+}
+a:hover
+{
+    color: red;
+}
+
+input[type="submit"]:hover
+{
+    cursor: pointer;
+    background: #0097a7;
+}
+
+a
+{
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 20px;
+    color:white;
+}
+.box{
+    border-radius: 60px;
+    background-color:black;
+    top: 50%;
+    left: 32%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 60px 30px;
+}
+
+
+
+input[type="text"], input[type="password"] ,input[type="email"]
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: white;
+    font-size: 16px;
+}
